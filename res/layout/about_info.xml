@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/semc_bg" >
+	<RelativeLayout
+		android:id="@+id/RelativeLayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="552dp"
+		android:gravity="center_horizontal"
+		android:orientation="vertical" >
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:text="Bionx Dashboard App Info"
+			android:textColor="@color/holo_blue"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView1"
+			android:layout_centerHorizontal="true"
+			android:text="Developer: Nx Biotic @XDA"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+			android:id="@+id/textView3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView2"
+			android:layout_centerHorizontal="true"
+			android:text="In Association with"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+			android:id="@+id/textView5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView3"
+			android:layout_centerHorizontal="true"
+			android:text="D-Wiz and JBX"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+			android:id="@+id/textView4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView5"
+			android:layout_centerHorizontal="true"
+			android:text="glEsVersionSupport: 2.0"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+			android:id="@+id/textView6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView4"
+			android:layout_centerHorizontal="true"
+			android:text="Bionx Framework Build: Catalyst"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+			android:id="@+id/textView7"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/textView6"
+			android:layout_centerHorizontal="true"
+			android:text="Dashboard Version: 5.0"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+	</RelativeLayout>
+</ScrollView>

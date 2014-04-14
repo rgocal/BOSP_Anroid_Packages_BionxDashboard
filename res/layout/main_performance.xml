@@ -1,0 +1,177 @@
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.bionx.res.DashPerformance"
+	android:id="@+id/scrollView1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+   <LinearLayout
+   	android:layout_width="match_parent"
+   	android:layout_height="wrap_content"
+   	android:orientation="vertical" >
+       <LinearLayout
+       	android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:orientation="horizontal" >
+       	<TextView
+       		android:id="@+id/TextView02"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="Battery Status:"
+       		android:textAppearance="?android:attr/textAppearanceMedium" />
+       	<TextView
+       		android:id="@+id/charge_info"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="100%, 4000mV" />
+       </LinearLayout>
+       <TextView
+       	android:id="@+id/textView1"
+       	android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="Performance Dashboard"
+       	android:textAppearance="?android:attr/textAppearanceLarge"
+       	android:textColor="@color/holoblue" />
+       <TextView
+       	android:id="@+id/textView2"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Modules" />
+       <HorizontalScrollView
+    	android:id="@+id/horizontalScrollView1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+       <LinearLayout
+       	android:layout_width="wrap_content"
+       	android:layout_height="match_parent"
+       	android:orientation="horizontal" >
+       	<it.gmariotti.cardslib.library.view.CardView
+       		android:id="@+id/oc"
+       		android:layout_width="150dp"
+       		android:layout_height="match_parent"
+       		android:layout_marginLeft="12dp"
+       		android:layout_marginRight="12dp"
+       		android:layout_marginTop="12dp"
+       		android:background="@drawable/card"
+       		card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+       	</it.gmariotti.cardslib.library.view.CardView>
+       	<it.gmariotti.cardslib.library.view.CardView
+       		android:id="@+id/vmm"
+       		android:layout_width="150dp"
+       		android:layout_height="match_parent"
+       		android:layout_marginLeft="12dp"
+       		android:layout_marginRight="12dp"
+       		android:layout_marginTop="12dp"
+       		android:background="@drawable/card"
+       		card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+       	</it.gmariotti.cardslib.library.view.CardView>
+       	<it.gmariotti.cardslib.library.view.CardView
+       		android:id="@+id/seed"
+       		android:layout_width="150dp"
+       		android:layout_height="match_parent"
+       		android:layout_marginLeft="12dp"
+       		android:layout_marginRight="12dp"
+       		android:layout_marginTop="12dp"
+       		android:background="@drawable/card"
+       		card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+       	</it.gmariotti.cardslib.library.view.CardView>
+       </LinearLayout>
+       </HorizontalScrollView>
+       
+       <TextView
+       		android:id="@+id/TextView03"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="Utility Modules"/>
+       <HorizontalScrollView
+    	android:id="@+id/horizontalScrollView1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+       <LinearLayout
+       	android:layout_width="wrap_content"
+       	android:layout_height="match_parent"
+       	android:orientation="horizontal" >
+       	<it.gmariotti.cardslib.library.view.CardView
+       		android:id="@+id/batt"
+       		android:layout_width="150dp"
+       		android:layout_height="match_parent"
+       		android:layout_marginLeft="12dp"
+       		android:layout_marginRight="12dp"
+       		android:layout_marginTop="12dp"
+       		android:background="@drawable/card"
+       		card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+       	</it.gmariotti.cardslib.library.view.CardView>
+       	<it.gmariotti.cardslib.library.view.CardView
+       		android:id="@+id/adb"
+       		android:layout_width="150dp"
+       		android:layout_height="match_parent"
+       		android:layout_marginLeft="12dp"
+       		android:layout_marginRight="12dp"
+       		android:layout_marginTop="12dp"
+       		android:background="@drawable/card"
+       		card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+       	</it.gmariotti.cardslib.library.view.CardView>
+       	<it.gmariotti.cardslib.library.view.CardView
+       		android:id="@+id/prop"
+       		android:layout_width="150dp"
+       		android:layout_height="match_parent"
+       		android:layout_marginLeft="12dp"
+       		android:layout_marginRight="12dp"
+       		android:layout_marginTop="12dp"
+       		android:background="@drawable/card"
+       		card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+       	</it.gmariotti.cardslib.library.view.CardView>
+       	<it.gmariotti.cardslib.library.view.CardView
+       		android:id="@+id/power"
+       		android:layout_width="150dp"
+       		android:layout_height="match_parent"
+       		android:layout_marginLeft="12dp"
+       		android:layout_marginRight="12dp"
+       		android:layout_marginTop="12dp"
+       		android:background="@drawable/card"
+       		card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+       	</it.gmariotti.cardslib.library.view.CardView>
+       </LinearLayout>
+       </HorizontalScrollView>
+       <TextView
+        	android:id="@+id/ads"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/ads" />
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+    
+        <it.gmariotti.cardslib.library.view.CardView
+        	android:id="@+id/adCardone"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/bottom_bar"
+        	card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+        </it.gmariotti.cardslib.library.view.CardView>
+        
+        <it.gmariotti.cardslib.library.view.CardView
+        	android:id="@+id/adCardtwo"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/bottom_bar"
+        	card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+        </it.gmariotti.cardslib.library.view.CardView>
+        
+        <it.gmariotti.cardslib.library.view.CardView
+        	android:id="@+id/adCardthree"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/bottom_bar"
+        	card:card_layout_resourceID="@layout/card_thumbnail_layout" >
+        </it.gmariotti.cardslib.library.view.CardView>
+        
+    	</LinearLayout>
+    </LinearLayout>
+</ScrollView>

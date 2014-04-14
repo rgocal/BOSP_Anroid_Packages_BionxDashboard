@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+	<changelogversion versionName="6.0.3" changeDate="March 12,2014">
+    <changelogtext>Officially Stable</changelogtext>
+    <changelogtext>Bug Fixes</changelogtext>
+    </changelogversion>
+	
+	<changelogversion versionName="5.0.1" changeDate="Feb 16,2014">
+    <changelogtext>Based Google Cards GUI on Google Guidelines</changelogtext>
+	<changelogtext>Added Exit Button on Nx Industry Card</changelogtext>
+	<changelogtext>Admob Swipeable Cards</changelogtext>
+	<changelogtext>Completely Rewritten Nx Performance and Tools</changelogtext>
+	<changelogtext>Tweaked Rendering</changelogtext>
+	<changelogtext>Removed Bionx Parts</changelogtext>
+	<changelogtext>Removed Bionx VMM</changelogtext>
+	<changelogtext>Renamed Advance Tools to VM Module</changelogtext>
+	<changelogtext>Updated Icon Sets</changelogtext>
+	<changelogtext>Tweaked Sliding Menu</changelogtext>
+    </changelogversion>
+	
+	<changelogversion versionName="5.0" changeDate="Jan 25,2014">
+        <changelogtext>Updated Android OS Utils Class</changelogtext>
+	<changelogtext>Updated Android OS Properties Class</changelogtext>
+	<changelogtext>Removed Zram Toggle and Set Values</changelogtext>
+	<changelogtext>Zram Compression renamed to Zram Bruteforce (Updated)</changelogtext>
+	<changelogtext>Updated Cards Layout</changelogtext>
+	<changelogtext>Revamped Sliding Menu</changelogtext>
+	<changelogtext>Information Center GUI Updated Nav Drawer</changelogtext>
+    </changelogversion>
+	
+    <changelogversion versionName="5.0" changeDate="Dec 27,2013">
+        <changelogtext>Removed Battery Info Fragment</changelogtext>
+	<changelogtext>Cleaned Up</changelogtext>
+	<changelogtext>Smart Constants and Helpers</changelogtext>
+	<changelogtext>[b]New![/b]Revamped Dashboard GUI</changelogtext>
+	<changelogtext>[b]New![/b]New Raw Readers (Changelog Viewer Lib)</changelogtext>
+	<changelogtext>[b]New![/b]CardsLib Interface</changelogtext>
+	<changelogtext>Completely Rewrote Manifest</changelogtext>
+	<changelogtext>[b]New![/b]Android 4.4 Support</changelogtext>
+	<changelogtext>[b]New![/b]Intel Support</changelogtext>
+	<changelogtext>Harder Sensor Support</changelogtext>
+	<changelogtext>Tablet Support</changelogtext>
+	<changelogtext>Touchsceen Optimization</changelogtext>
+	<changelogtext>Accelerometer Support</changelogtext>
+	<changelogtext>Graphics Accerlerated</changelogtext>
+	<changelogtext>Custom Font Render</changelogtext>
+	<changelogtext>Updated Assets</changelogtext>
+	<changelogtext>Memory Improvements</changelogtext>
+	<changelogtext>Bionx Framework Improvements</changelogtext>
+	<changelogtext>Catalyst Rom Improvements</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="4.2.1" changeDate="Dec 01,2013">
+    <changelogtext>Tablet Support Experimental</changelogtext>
+    <changelogtext>Fixed Tablet Splash Screen Layout</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="4.2 LTS" changeDate="2013">
+        <changelogtext>[b]New![/b]Android 4.4 Support R1</changelogtext>
+        <changelogtext>Cleaned and Updated Menus</changelogtext>
+        <changelogtext>[b]New![/b]Bionx Sliding Menu</changelogtext>
+	<changelogtext>[b]New![/b]Firmware Details</changelogtext>
+	<changelogtext>[b]New![/b]Info/Guide</changelogtext>
+	<changelogtext>Updated Changelog Render</changelogtext>
+	<changelogtext>Updated /Res/Layouts</changelogtext>
+	<changelogtext>Updated /Res/Drawable</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="4.0" changeDate="Catalyst Release, 2013">
+        <changelogtext>Original Changelog can be found in the /res/raw/original_changelog</changelogtext>
+	<changelogtext>Everything under 4.0 is obsolete with Android 4.4</changelogtext>
+    </changelogversion>
+
+</changelog>

@@ -1,0 +1,24 @@
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:text="Swipe to dismiss"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+	<com.google.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/textView1"
+		ads:adSize="BANNER"
+		ads:adUnitId="f622b5a765074b72"
+		ads:loadAdOnCreate="true" >
+	</com.google.ads.AdView>
+</RelativeLayout>

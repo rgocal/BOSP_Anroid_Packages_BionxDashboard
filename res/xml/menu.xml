@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory 
+        android:title="Navigation" >
+        <Preference
+            android:title="Performance Dashboard"
+            android:summary="Shell powered Dashboard" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.DashPerformance"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference
+            android:title="Bionx Roms"
+            android:summary="Eclusive settings for Bionx LTS Roms" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.Roms"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Tools" >
+        <Preference
+            android:icon="@drawable/ic_task"
+            android:summary="Kill unwanted processes"
+            android:title="Task Killer" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.ProcessList"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference 
+            android:icon="@drawable/ic_filemanagement"
+            android:summary="View files accordingly in /sdcard /sdcard-ext and /system"
+            android:title="File Manager" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.Files"
+                android:targetPackage="com.bionx.res" />
+            </Preference>
+        <Preference 
+            android:title="Application Backup" 
+            android:summary="Backup your downloaded apps /sdcard/Bionx" 
+            android:icon="@drawable/ic_backup">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.ApplicationBackup"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference 
+            android:title="Wallpaper Manifest" 
+            android:summary="Bionx wallpapers for all" 
+            android:icon="@drawable/ic_gallery">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.wallpaper.WallpaperActivity"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+        <Preference
+            android:title="Home Manager" 
+            android:summary="Switch and manage launchers" 
+            android:icon="@drawable/ic_home">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.activity.LauncherManager"
+                android:targetPackage="com.bionx.res" />
+        </Preference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Device" >
+        <!-- Device hardware model -->
+        <Preference android:key="device_model" 
+                style="?android:preferenceInformationStyle"
+                android:title="Model"
+                android:summary="@string/device_info_default"/>
+                
+        <!-- Device firmware version -->
+        <Preference android:key="firmware_version" 
+                style="?android:preferenceInformationStyle"
+                android:title="Firmware Version"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed build version -->
+        <Preference android:key="build_number" 
+                style="?android:preferenceInformationStyle"
+                android:title="Build Number"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Device Kernel version -->
+        <Preference android:key="kernel_version" 
+                style="?android:preferenceInformationStyle"
+                android:title="Kernel Base"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed host -->
+        <Preference android:key="host" 
+                style="?android:preferenceInformationStyle"
+                android:title="Host"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed radio -->
+        <Preference android:key="radio" 
+                style="?android:preferenceInformationStyle"
+                android:title="Radio Info"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed cpu0 -->
+        <Preference android:key="cpu_0" 
+                style="?android:preferenceInformationStyle"
+                android:title="Processor 0"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed cpu1 -->
+        <Preference android:key="cpu_1" 
+                style="?android:preferenceInformationStyle"
+                android:title="Processor 1"
+                android:summary="@string/device_info_default"/>
+        
+        <!-- Detailed bootloader -->
+        <Preference android:key="bootloader" 
+                style="?android:preferenceInformationStyle"
+                android:title="Bootloader"
+                android:summary="@string/device_info_default"/>
+        </PreferenceCategory>
+</PreferenceScreen>

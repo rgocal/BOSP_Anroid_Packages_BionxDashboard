@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:summary="GPU Overclocking"
+        android:title="GPU Frequencies" >
+        <ListPreference
+            android:key="maxgpu"
+            android:summary="Select max frequency"
+            android:entries="@array/gpumaxfreq"
+            android:entryValues="@array/gpumaxfreq"
+            android:title="GPU Max frequency" />
+        <ListPreference
+            android:key="mingpu"
+            android:summary="Select min frequency"
+            android:entries="@array/gpuminfreq"
+            android:entryValues="@array/gpuminfreq"
+            android:title="GPU Min frequency" />
+        <SwitchPreference
+            android:key="applygpu"
+            android:summary="Apply values, Create Init.d script"
+            android:title="Create Values" />
+        <CheckBoxPreference
+            android:key="gpuboot"
+            android:summary="Boot created Init.d"
+            android:title="Set On Boot" />
+    </PreferenceCategory>
+</PreferenceScreen>

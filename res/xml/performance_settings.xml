@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_key_system_settings" >
+
+    <EditTextPreference
+        android:key="@string/lcd_density_prefs_key"
+        android:summary="@string/pref_lcd_density_summary"
+        android:title="@string/pref_lcd_density_title" />
+
+    <EditTextPreference
+        android:key="@string/navbar_prefs_key"
+        android:summary="1 = Disabled 0 = Enabled"
+        android:title="Toggle Navbar" />
+
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+		android:id="@+id/settings"
+		android:icon="@drawable/quick_settings" 
+		android:orderInCategory="0"
+		android:showAsAction="always"
+		android:actionProviderClass="com.android.settings" 
+		android:title="Settings"/>
+	<item
+		android:id="@+id/info"
+		android:orderInCategory="1"
+		android:showAsAction="always" 
+		android:title="Tips"/>
+	<item android:id="@+id/preference" 
+		android:orderInCategory="2" 
+		android:title="Preferences" 
+		android:showAsAction="never|ifRoom" 
+		android:actionProviderClass="com.bionx.res.activity.Preferences"></item>
+	<item 
+	    android:id="@+id/exit" 
+	    android:title="Dismiss" 
+	    android:showAsAction="never|ifRoom" 
+	    android:orderInCategory="2"/>
+	
+	
+</menu>

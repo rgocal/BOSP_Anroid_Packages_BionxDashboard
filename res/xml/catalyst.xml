@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+        <header
+            android:fragment="com.bionx.res.catalyst.Changelog"
+            android:icon="@drawable/ic_manage"
+            android:title="Firmware Changelog"
+            android:summary="View the latest changes in Catalyst" />
+        <header
+            android:fragment="com.bionx.res.catalyst.InitD"
+            android:icon="@drawable/ic_initd"
+            android:title="Init.D Toggles"
+            android:summary="Optimize android system startup" />
+        <header
+            android:icon="@drawable/ic_batch"
+            android:title="GPU Settings" 
+            android:summary="Overclock GPU" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.catalyst.GPUSettings"
+                android:targetPackage="com.bionx.res" />
+        </header>
+        <header
+            android:fragment="com.bionx.res.fragments.SystemSettings"
+            android:icon="@drawable/ic_manage"
+            android:title="System Settings"
+            android:summary="Few Helpfull And Experimental Tweaks" />
+</preference-headers>

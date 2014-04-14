@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/ll"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<Button
+		android:id="@+id/apply"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:text="Apply"
+		android:textColor="@color/holo_blue" />
+	<Button
+		android:id="@+id/back"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:text="Done"
+		android:textColor="@color/holo_blue" />
+	<EditText
+		android:id="@+id/userInput"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="38dp"
+		android:ellipsize="end"
+		android:ems="10"
+		android:hint="Enter Zram Compression Level"
+		android:inputType="number" >
+		<requestFocus />
+	</EditText>
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/userInput"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="71dp"
+		android:text="NOTE:"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1"
+		android:layout_centerHorizontal="true"
+		android:text="I don&apos;t know if there is a max value but to be safe, lets make that value 200. The Minimum value should be 32. This method should only be used if you know what your doing and understanding that if the wrong values are set, you could slow down your device."
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+</RelativeLayout>

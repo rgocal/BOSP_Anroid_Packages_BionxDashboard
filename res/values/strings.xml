@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- DashboardActivity -->
+    <string name="app_name">Dashboard</string>
+    <string name="placeholder"></string>
+    <string name="version">Version: V5.0</string>
+	<string name="service">Service: Running</string>
+    <string name="device_info_default">Unknown</string>
+    <string name="bucket">Unknown</string>
+    <string name="tool">Tools</string>
+    <string name="nw">New User</string>
+    <!--Build.propActivity -->
+    <string name="save">Save</string>
+    <string name="discart">Discard</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_key">Property Key</string>
+    <string name="edit_name">Property Name</string>
+    <string name="unsaved_changes_title">Unsaved Changes</string>
+    <string name="unsaved_changes_message">Would you like to set this property?</string>
+    <string name="add">Add</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <!--Files Activity -->
+    <string name="media_dialog">Media preview</string>
+    <string name="dir_info">Folder Information</string>
+    <!-- Changelog Activity -->
+    <string name="ok">OK</string>
+    <string name="changelog_full_title">Changelog</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_error">Cannot get changelog, are you running Catalyst?</string>
+    <!-- Task Activity -->
+    <string name="kill_app">Kill</string>
+    <string name="refresh_app">Refresh</string>
+    <string name="no_processes">Clean Slate</string>
+    <string name="process">Processes</string>
+    <string name="available_mem">Available Memory</string>
+    <string name="progress_title">Loading...</string>
+    <string name="progress_message">Please Wait...</string>
+    	<!-- Official Links -->
+    <string name="bionx_website">Bionx Home:bionx.webs.com</string>
+    <string name="bionx_donation">Donate to Biotic:http://goo.gl/qpb4z</string>
+    <string name="bionx_forum">Phandroid:http://goo.gl/fXwlr</string>
+    <string name="bionx_facebook">Bionx Facebook:http://goo.gl/WnxG9</string>
+    <string name="twitter">Follow Biotic Twitter:https://twitter.com/Rgocal</string>
+   		 <!-- About Device -->
+   	<string name="developer">Rom Developer: Biotic</string>
+   		 <!-- Wallpaper Picker -->
+   	<string name="applying">Applying selection now</string>
+   	<string name="action_apply">Apply</string>
+	<!-- Battery calibration -->
+    <string name="calibration_prefs_key">calibration_prefs_key</string>
+    <string name="calibration_settings_title">Battery calibration</string>
+    <string name="battery_calibration_step1">1) Plug device into charger</string>
+    <string name="battery_calibration_step2">2) Allow battery to charge to 100%</string>
+    <string name="battery_calibration_step3">3) Click \'Calibrate Battery\' button</string>
+    <string name="battery_calibration_step4">4) Unplug your device</string>
+    <string name="button_calibrate_battery">Calibrate Batery</string>
+    <string name="button_override">Step 2 Overide</string>
+    <string name="battery_info_text">Battery: </string>
+    <!-- Android ID Activity -->
+    <string name="android_id_prefs_key">android_id_pref_key</string>
+    <string name="android_id_settings_title">Android ID tool</string>
+    <string name="error_copying_binary">There was an error trying to copy the sqlite3 binary.</string>
+    <string name="dialog_root_required_title">Root Required</string>
+    <string name="dialog_root_required_body">Root permissions are required in order for this app to perform it\'s functions.  Root permissions were not granted or root is not possible on this device.</string>
+    <string name="dialog_update_id_failure_title">Update failure</string>
+    <string name="dialog_update_id_failure_body">Unfortunately the updating of the ID was not successful. Please contact the developer.</string>
+    <string name="id_backup_exists">No backup exists</string>
+    <string name="android_id_title">Current ID</string>
+    <string name="android_backup_id_title">Saved ID</string>
+    <string name="button_backup_id">Save current ID</string>
+    <string name="button_restore_id">Restore saved ID</string>
+    <string name="media_scanner_prefs_key">media_scanner_pref_key</string>
+    <string name="media_scanner_settings_title">Invoke media scanner</string>
+    <string name="logcat_prefs_key">logcat_pref_key</string>
+    <string name="logcat_settings_title">Logcat tool</string>
+    <!--Wallpaper Activity -->
+    <string name="config_wallpaper_download_loc">Wallpaper Downloads</string>
+    <string name="config_wallpaper_sdcard_dl_location">SDcard Wallpaper Downloads</string>
+    <string name="config_wallpaper_manifest_url">Manifest Configurations</string>
+    <string name="page">Page</string>
+    <!-- Start up tweaks -->
+	<string name="pt_init_d">Start-up Tweaks</string>
+	<string name="pt_enable_init_d">Enable start-up tweaks</string>
+	<string name="pt_zipalign">Zipalign apks</string>
+	<string name="pt_enable_sd_boost">Enable SD boost</string>
+	<string name="pt_sd_boost">Read ahead value</string>
+	<string name="pt_fix_permissions">Fix permissions</string>
+	<string name="pt_clear_cache">Clear cache</string>
+	<string name="pt_cache">Dalvik2Cache</string>
+	<string name="pt_ram">RAM Script</string>
+	<string name="pt_rgdn">Seeder</string>
+	<string name="pt_sqlite">SQLITE</string>
+	<string name="pt_tether">Tethering</string>
+	<!-- Catalyst Tweaks -->
+	<string name="navbar_changer"> Navigation Bar Tweaked</string>
+	<string name="ps_init_d">Configure tweaks that are run at boot
+		(init.d)
+	</string>
+	<string name="ps_enable_init_d">Enable/disabe start-up tweaks</string>
+	<string name="ps_zipalign">Zipalign any unaligned apps on each boot</string>
+	<string name="ps_enable_sd_boost">Enable/disable SD card speed boost</string>
+	<string name="ps_sd_boost">Set value of read ahead in kb</string>
+	<string name="ps_fix_permissions">Fix permissions for apps on each boot</string>
+	<string name="ps_clear_cache">Clear data cache on each boot</string>
+	<string name="ps_cache">Populate dalvik in cache</string>
+	<string name="ps_ram">Free more ram at boot</string>
+	<string name="ps_rgdn">Enable automatic rgdn services</string>
+	<string name="ps_sqlite">Enable silent sqlite services</string>
+	<string name="ps_tether">Hack hotspot for free services regarding those who are on a family shared plan</string>
+	<!-- Appirater -->
+	<string name="rate_title">Rate %s</string>
+    <string name="rate_message">Enjoy using, %s on your device? Take the time to rate Bionx to help improve everyones experience!</string>
+    <string name="rate">+1 %s</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_cancel">Everythings running fine!</string>
+    <!-- Nx Performance -->
+    <!-- Main tabs -->
+    <string name="tab_cpu_settings">CPU Settings</string>
+    <string name="tab_cpu_profiles">CPU Profiles</string>
+    <string name="tab_battery_info">Battery</string>
+    <string name="tab_oom_settings">Memory Settings</string>
+    <string name="tab_time_in_state">Time In State</string>
+    <string name="tab_voltage_settings">Voltage Settings</string>
+    <string name="tab_cpu_info">CPU Info</string>
+    <string name="tab_disk_info">Disk Info</string>
+    <!-- Titles -->
+    <string name="t_cpu_settings">CPU SETTINGS</string>
+    <string name="t_battery_info">BATTERY</string>
+    <string name="t_oom_settings">MEMORY SETTINGS</string>
+    <string name="t_volt_settings">VOLTAGE SETTINGS</string>
+    <string name="t_adv_settings">"ADVANCED SETTINGS"</string>
+    <string name="t_time_in_state">"TIME IN STATE"</string>
+    <string name="t_cpu_info">CPU INFO</string>
+    <string name="t_disk_info">DISK INFO</string>
+
+    <string name="menu_tab">Tabs</string>
+    <!-- Menu -->
+    <string name="mt_refresh">Refresh</string>
+    <string name="mt_app_settings">"App Settings"</string>
+    <string name="mt_reset">Reset</string>
+    <string name="mt_restore">Restore</string>
+    <string name="mt_plus25">Increase by 25 mV</string>
+    <string name="mt_minus25">Decrease by 25 mV</string>
+    <!-- CPU settings -->
+    <string name="current_speed">Current Speed</string>
+    <string name="current_max">Current max:</string>
+    <string name="current_min">Current min:</string>
+    <string name="governor">Governor</string>
+    <string name="io">IO Scheduler</string>
+    <string name="sob">Set on boot</string>
+    <!-- Other settings -->
+    <string name="prefcat_free_memory">FREE MEMORY</string>
+    <string name="prefcat_tweaks">FAST CHARGE</string>
+    <string name="prefcat_misc_short">MISC</string>
+    <string name="prefcat_read_ahead">SD READ AHEAD</string>
+    <string name="prefcat_vm_settings">VM SETTINGS</string>
+    <string name="dt_free_memory">Minfree Taskkiller</string>
+    <string name="dt_read_ahead">SD Read Ahead</string>
+    <string name="pt_free_memory">Free memory</string>
+    <string name="ps_free_memory">Amount of RAM the minfree taskkiller will keep |
+        Current: %s
+    </string>
+    <string name="ps_free_memory_boot">Apply the amount above at boot</string>
+    <string name="pt_read_ahead">SD read ahead</string>
+    <string name="ps_read_ahead">Amount to read ahead on SDCard reads in kb |
+        Current: %s
+    </string>
+
+    <string name="ps_fast_charge_boot">Fast charge</string>
+    <string name="fast_charge_warning">YOU WILL NOT BE ABLE TO CONNECT TO YOUR PC AFTER
+        EACH REBOOT!\n\nWhile Fast Charge is ON, you can *only* charge your phone!
+    </string>
+    <string name="fast_charge_notification_title">Fast Charge is ON!</string>
+    <string name="fast_charge_notification_message">Phone is in charge-only mode!</string>
+
+<!-- minfree -->
+   <string name="prefcat_oom">MINFREE TASKKILLER</string>
+   <string name="title_foreground_app">Foreground Applications</string>
+   <string name="title_visible_app">Visible Applications</string>
+   <string name="title_secondary_server">Secondary Server</string>
+   <string name="title_hidden_app">Hidden Applications</string>
+   <string name="title_content_providers">Content Providers</string>
+   <string name="title_empty_app">Empty Applications</string>
+   <string name="prefcat_oom_predefines">PRESETS</string>
+   <string name="pt_oom">Minfree Taskkiller Presets</string>
+
+   <string name="pt_verylight">Very Light</string>
+   <string name="pt_light">Light</string>
+   <string name="pt_medium">Medium</string>
+   <string name="pt_aggressive">Aggressive</string>
+   <string name="pt_veryaggressive">Very Aggressive</string>
+
+    <!-- do not kill proc -->
+    <string name="prefcat_user_proc">NOT KILLABLE USER PROCESSES</string>
+    <string name="prefcat_sys_proc">NOT KILLABLE SYSTEM PROCESSES</string>
+    <string name="pt_user_proc">Enable not killable user processes</string>
+    <string name="pt_sys_proc">Enable not killable system processes</string>
+    <string name="pt_user_names_proc">User Processes whitelist</string>
+    <string name="pt_sys_names_proc">System Processes whitelist</string>
+    <string name="ps_restore_boot">Restore above settings at boot</string>
+    <string name="ps_user_proc">The list of user process names (comma separated)</string>
+    <string name="ps_sys_proc">The list of system process names (comma separated)</string>
+    <string name="no_proc">No packages</string>
+    <!-- bln -->
+    <string name="prefcat_bln">BACKLIGHT NOTIFICATION</string>
+    <string name="pt_bln">Backlight Notification</string>
+<!-- blx -->
+   <string name="blx_info">Battery Life eXtender feature\nAuthor Ezekeel</string>
+   <string name="prefcat_blx">BATTERY LIFE EXTENDER</string>
+   <string name="pt_blx_boot">Set on boot</string>
+   <string name="ps_blx_boot">Apply the amount above at boot</string>
+   <string name="blx_title">Charge limit:</string>
+<!-- dsync -->
+   <string name="dsync_info">Dynamic FSync feature\nAuthor Paul Reioux (faux123)</string>
+   <string name="prefcat_dsync">DYNAMIC FSYNC</string>
+   <string name="ps_dsync">Setting will be restored on reboot</string>
+   <string name="pt_dsync">Dynamic Fsync</string>
+<!-- bl_timeout -->
+   <string name="prefcat_bltimeout">BACKLIGHT TIMEOUT</string>
+   <string name="ps_bltimeout">%s ms</string>
+   <string name="bltimeout_title">Backlight timeout</string>
+<!-- bl_touch -->
+   <string name="prefcat_bltouch">BACKLIGHT ON TOUCHSCREEN</string>
+   <string name="pt_bltouch">Backlight on touchscreen</string>	
+<!-- pfk -->
+   <string name="pfk_info">Phantom Key Presses Filter module ver. %s\nAuthor Cristoforo Cataldo (Christopher83)</string>
+   <string name="prefcat_pfk">PHANTOM KEY PRESSES FILTER</string>
+   <string name="pt_home_enabled">Home key filter</string>
+   <string name="ps_home_enabled">Ignored key pressed: %s</string>
+   <string name="home_allowed_irq_title">Max allowed interrupts</string>
+   <string name="home_report_wait_title">Report wait time</string>
+	
+   <string name="pt_menuback_enabled">Menu/Back keys filter</string>
+   <string name="ps_menuback_enabled">Ignored key pressed: %s</string>
+   <string name="menuback_interrupt_checks_title">Interrupts checks</string>
+   <string name="menuback_first_err_wait_title">First error wait time</string>
+   <string name="menuback_last_err_wait_title">Last error wait time</string>
+   <string name="ps_pfk_set_on_boot">If enabled will restore all pkf settings on reboot</string>
+<!-- dynamic write back -->
+   <string name="dynamic_writeback_info">Dynamic Dirty Page Writebacks feature\nAuthor Cristoforo Cataldo (Christopher83)</string>
+   <string name="dynamic_write_back_title">DYNAMIC DIRTY PAGE WRITEBACKS</string>
+   <string name="pt_dynamic_write_back">Dynamic Dirty Writeback</string>
+   <string name="dynamic_writeback_active_title">Dirty Writeback Active centisecs</string>
+   <string name="dynamic_writeback_suspend_title">Dirty Writeback Suspend centisecs</string>
+<!--  -->
+    <string name="size_25_mb">25mb</string>
+    <string name="size_50_mb">50mb</string>
+    <string name="size_75_mb">75mb</string>
+    <string name="size_80_mb">80mb</string>
+    <string name="size_100_mb">100mb</string>
+    <string name="size_128_kb">128kb</string>
+    <string name="size_256_kb">256kb</string>
+    <string name="size_512_kb">512kb</string>
+    <string name="size_1024_kb">1024kb</string>
+    <string name="size_2048_kb">2048kb</string>
+    <string name="size_4096_kb">4096kb</string>
+    <!-- Voltage control -->
+    <string name="volt_info">ATTENTION!\nBefore activating Set on boot, make sure that the values ​​entered do not exceed limits or risk the phone to freeze.</string>
+    <string name="ps_volt_mhz_voltage">" Hz"</string>
+    <string name="ps_volt_save">"Save"</string>
+    <string name="ps_volt_current_voltage">"Current voltage: "</string>
+    <string name="ps_volt_setting_to_apply">"Setting to apply: "</string>
+    <string name="pt_volt_control">Voltage control</string>
+    <string name="ps_volt_control">Set voltages for each frequency</string>
+    <string name="apply_values">Apply values</string>
+    <string name="freq">Frequency</string>
+    <string name="current">mV current</string>
+    <string name="saved">mV saved</string>
+    <string name="not_supported">Your kernel does not support voltage control</string>
+    <!-- VM settings -->
+    <string name="ps_vm_set_on_boot">If enabled will restore all vm settings on reboot</string>
+    <string name="dirty_ratio_title">Dirty ratio</string>
+    <string name="dirty_background_title">Dirty background ratio</string>
+    <string name="dirty_expire_title">Dirty expire centisecs</string>
+    <string name="dirty_writeback_title">Dirty writeback centisecs</string>
+    <string name="min_free_title">Minfree kbytes</string>
+    <string name="overcommit_title">Overcommit ratio</string>
+    <string name="swappiness_title">Swappiness</string>
+    <string name="vfs_title">VFS cache pressure</string>
+    <!-- Time in state -->
+    <string name="time_in_state">TIME IN STATE</string>
+    <string name="unused_cpu_states">UNUSED CPU STATES</string>
+    <string name="total_state_time">TOTAL STATE TIME</string>
+    <string name="no_states_file_found">No states file found. Are you sure your phone is
+        compatible?\n\nIf you are running a custom ROM or kernel, try
+        contacting its developer to inform him that the states file is not
+        readable.
+    </string>
+    <string name="deep_sleep">"Deep Sleep"</string>
+    <!-- CPU info -->
+    <string name="kernel_info">LINUX KERNEL INFORMATION</string>
+    <string name="cpu_info">CPU INFORMATION</string>
+    <string name="mem_info">MEMORY INFORMATION</string>
+    <string name="first_run_title">First check for root</string>
+    <string name="su_success_title">Success!</string>
+    <string name="su_failed_title">Oops!</string>
+    <string name="first_run_message">The application needs to check for root access and
+        busybox. Press OK to continue. Cancel if you would not like to grant
+        root access.
+    </string>
+    <string name="su_success_message">Performance Control was able to get root access and
+        find busybox. Ready to rock!
+    </string>
+    <string name="su_cancel_message">You have chosen to not check for root and busybox.
+        Most options will not work without root access. Sorry!
+    </string>
+    <string name="su_failed_su_or_busybox">Root access failed or busybox was not found. Most
+        options will not work without root access. Sorry!
+    </string>
+    
+    <!-- Tools -->
+    <string name="prefcat_sh">CUSTOM SHELL COMMAND</string>
+    <string name="sh_title">Edit shell command</string>
+    <string name="ps_sh">Command will be executed at boot.</string>
+    <string name="sh_msg">Leave blank for no operation.</string>
+    <string name="clear">Clear</string>
+    <string name="yes">Yes</string>
+    <string name="wait">Please wait…</string>
+    <string name="prefcat_wipe_cache">CACHE and DALVIK CACHE</string>
+    <string name="wipe_cache_title">Wipe cache and dalvik cache</string>
+    <string name="ps_wipe_cache">Cache partition: %s</string>
+    <string name="wipe_cache_msg">At the end, the system will reboot. Continue?</string>
+
+    <string name="prefcat_flash_img">FLASH IMG FILE</string>
+    <string name="kernel_img_title">Flash KERNEL</string>
+    <string name="ps_kernel_img">Flash boot.img files as kernel. Can choose individual boot.img file or any zip file that contains boot.img</string>
+    <string name="recovery_img_title">Flash RECOVERY</string>
+    <string name="ps_recovery_img">Flash recovery.img files as recovery. Can choose individual recovery.img file or any zip file that contains recovery.img</string>
+    <string name="btn_choose">Choose %s</string>
+    <string name="unsupported_info">Your device is not supported.</string>
+    <string name="flash_info">will be flashed on partition\n%s\n as</string>
+    <string name="dir_parent">&lt;Parent DIR&gt;</string>
+    <string name="dir">&lt;DIR&gt;</string>
+    <string name="bkexit">Press again to exit</string>
+
+    <string name="prefcat_residual_files">CLEAN RESIDUAL FILES</string>
+    <string name="residual_files_title">Clean residual files</string>
+    <string name="btncleanall">Clean all</string>
+    <string name="clean_files_msg">Residual files from %s will be deleted. Continue?</string>
+    <string name="filesstr">file(s)</string>
+    <string name="no_residuals">No residual files</string>
+
+    <string name="prefcat_optim_db">OPTIMIZE DBs</string>
+    <string name="optim_db_title">Optimize Databases</string>
+    <string name="ps_optim_db">This will optimize databases by using SQL command VACUUM.</string>
+
+    <string-array name="residual_info">
+        <item>Contains Android system log files</item>
+        <item>Contains log files from crashed apps</item>
+        <item>Contains constantly generated log files</item>
+        <item>Contains statistics about what apps you started</item>
+        <item>Contains traces from \'application not responding\' events</item>
+        <item>Contains temporary files</item>
+    </string-array>
+    <string name="prefcat_fix_perms">FIX PERMISSIONS</string>
+    <string name="fix_perms_title">Fix permissions</string>
+    <string name="fix_perms_msg">Operation may take several minutes. Continue?</string>
+    <string name="preflogg_fix_perms">Enable logging</string>
+
+    <string name="free">free %s</string>
+    <string name="used">used %s</string>
+
+    <!-- 2.1.0 -->
+    <string name="verify">Verifying…</string>
+    <string name="bad_zip">%s not found in zip file !</string>
+    <string name="closebtn">Close</string>
+    <string name="delallbtn">Delete all</string>
+    <string name="del_file_msg">%s will be deleted. Continue?</string>
+    <string-array name="batt_status">
+        <item>Unknown</item>
+        <item>Unknown</item>
+        <item>Charging</item>
+        <item>Discharging</item>
+        <item>Full</item>
+        <item>Not charging</item>
+    </string-array>
+    <!-- Color picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FF000000</string>
+    <string name="set">Set</string>
+    <string name="ics_color">Holo</string>
+    <!-- Performance Settings -->
+    <string name="lcd_density_prefs_key">lcd_density_prefs_key</string>
+    <string name="pref_lcd_density_summary">Adjust the DPI specified in build.prop (changes require a reboot)</string>
+    <string name="pref_lcd_density_title">Screen DPI</string>
+    <string name="navbar_prefs_key">navbar_prefs_key</string>
+    
+    <!-- Menu -->
+    <string name="info">Dashboard Tips</string>
+    <string name="info_msg">
+    	<![CDATA[
+        <b>Dashboard</b>
+    ]]>
+    	The Dashboard is not just a toolkit for users. Its a link to keep
+        the community connected in one place.
+        &lt;br>&lt;br>
+        <![CDATA[
+        <b>Swipe Menu</b>
+    ]]>
+        If you swipe your finger to the RIGHT on the Dashboard. You will open the Bionx
+        Swipe Menu which will guide you to every tool available to you as a user. A Blue vertical icon will appear next to the launcher icon.
+        &lt;br>&lt;br>
+        <![CDATA[
+        <b>Cards</b>
+    ]]>
+        The new Google Cards is a new powerful GUI for android users. The first google card is the Nx Card which allows
+        users to check out Nx Industries on the go and check out the latest news and updates. The next 3 cards are sponsoring
+        Android Tablet Forums XDA Developers and Phandroid with a clickable intent to take the user to the website. The following
+        cards take the user directly to Biotics Google Play store and inform users of upcoming updates and new apps. The last cards inform
+        the users of various information about the Dashboard as well as Bionx. The Utility card presents users the powerful tools of the Bionx
+        Dashboard.
+        &lt;br>&lt;br>
+        <![CDATA[
+        <b>Utilities</b>
+    ]]>
+    	Root Tools/Nx Performance/Catalyst Rom/Nx Power are the 4 main sections of the Bionx Dashboard that require Root
+    	Privileges. Spare Parts/Tasker/Nx Files/Application Backup/Bionx Papers/Home Manager are all tools and settings
+    	for any user to take advantage of that Bionx provides to both rooted and non-rooted users.
+        
+        </string>
+        
+    <string name="bd">Bionx Dashboard</string>
+    <string name="ads">Advertisements</string>
+    <string name="comm">Community</string>
+    <string name="bs">Biotics Store</string>
+    <string name="sn">Store Notifications</string>
+    <string name="iw">Info Flow</string>
+    <string name="social">Social Networking</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Cose</string>
+</resources>

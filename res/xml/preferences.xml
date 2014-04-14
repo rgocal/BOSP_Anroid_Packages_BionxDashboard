@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen 
+         android:title="Settings"
+   		android:summary="Bionx Dashboard App Settings">
+   		<PreferenceScreen
+                android:title="Changelog"
+                android:summary="View the changelog of the Bionx Dashboard">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetClass="com.bionx.res.about.Changelog"
+                android:targetPackage="com.bionx.res" />
+		</PreferenceScreen>        
+         <CheckBoxPreference
+                 android:defaultValue="true"
+                 android:title="Card Accelorator"
+                 android:summary="Render CardsLib faster depending on device CPU" 
+                 android:enabled="false" android:selectable="false">
+         </CheckBoxPreference>
+         <CheckBoxPreference
+                 android:defaultValue="true"
+                 android:title="Graphics Optimizer"
+                 android:summary="Render Bionx layouts faster according to device GPU scaling" 
+                 android:enabled="false" android:selectable="false">
+         </CheckBoxPreference>
+    </PreferenceScreen>
+    
+    <PreferenceCategory android:title="App Information" >
+        <PreferenceScreen
+                android:title="Developer's Email"
+                android:summary="rgocal09@gmail.com" 
+                android:selectable="false" 
+                android:enabled="false" >
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:title="Developer"
+                android:summary="Biotic / Nx Biotic" 
+                android:selectable="false" 
+                android:enabled="false" >
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:title="Donate"
+                android:summary="Support Bionx by sending a donation to the BOS Project">
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="http://forum.xda-developers.com/donatetome.php?u=3104921" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:title="Current Version"
+                android:summary="@string/version" 
+                android:selectable="false" 
+                android:enabled="false" >
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:title="Bionx Service"
+                android:summary="@string/service" 
+                android:selectable="false" 
+                android:enabled="false" >
+            </PreferenceScreen>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Libraries" >
+        <PreferenceScreen
+                android:title="CardsLib"
+                android:summary="Gabriele Mariotti" 
+                android:selectable="false" 
+                android:enabled="false" >
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:title="Changelog Viewer"
+                android:summary="Gabriele Mariotti" 
+                android:selectable="false" 
+                android:enabled="false" >
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:title="Sliding Menu"
+                android:summary="Jeremy Feinstein" 
+                android:selectable="false" 
+                android:enabled="false" >
+            </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>
